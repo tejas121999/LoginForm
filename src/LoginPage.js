@@ -4,10 +4,7 @@ import { WebView } from 'react-native-webview';
 
 const LoginPage = (props) => {
     return (
-        <View style={styles.container}>
-            
-            <WebView source={{ uri: 'https://volvere.in/vibe/' }} />
-        </View>
+        <WebView source={{ uri: 'https://volvere.in/vibe/' }} />
     );
 };
 
@@ -19,7 +16,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     text: {
-        fontSize:100
+        fontSize: 100
     }
 })
 
