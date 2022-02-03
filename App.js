@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, Button, Image } from 'react-native';
 import LoginPage from './src/LoginPage'
+
 const loginImg = require('./assets/S2.png')
 
 export default function App() {

@@ -1,10 +1,12 @@
 import { StyleSheet, View, Text, Image } from 'react-native';
 import React from 'react';
+import { WebView } from 'react-native-webview';
 
 const LoginPage = (props) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>WELCOM</Text>
+            
+            <WebView source={{ uri: 'https://volvere.in/vibe/' }} />
         </View>
     );
 };
